@@ -1,0 +1,188 @@
+.dropDownMenu ul ul {
+	list-style: none;
+}
+.dropDownMenu > ul > li > ul > li {
+	/* applying css only for list items inside the second ul */
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 13pt;
+	/*background-image: url("Capture.JPG");*/
+	background-size: cover;
+}
+/* Capture.JPG*/
+/* Menu General Styles */
+.menuBackground {
+	/*background-image: url("innerHeaderBg4.jpg");*/
+	/*background: rgba(108, 122, 137, 0.7);*/
+	background-image: linear-gradient(to right,rgba(108, 122, 137, 0.3) , rgba(108, 122, 137, 0.8));
+	/*background-size: 1000px 700px;*/
+¡¡¡¡/*background-size:contain;*/
+	height:10vh;
+}
+/*.menuBackground_c {
+	background-image: url("DSC_0055-1.jpg");
+	background-size: contain;
+}
+.menuBackground_e {
+	background-image: url("IMG_6858-1-2.jpg");
+	background-size: contain;
+}
+.menuBackground_rtp {
+	background-image: url("IMG_6858-1-2.jpg");
+	background-size: cover;
+}
+.menuBackground_tip{
+	background-image: url("IMG_6858-1-2.jpg");
+	background-size: contain;
+	
+}*/
+
+.introduction {
+	background: white;
+   	position: absolute;
+	top: 0;
+ 	left: 0;
+  	right: 0;
+    	bottom: 0;
+	width: 430px;
+	height:200px;
+	margin: auto;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 15px;
+	z-index: 1;
+		font-size: 10pt;
+
+}
+.placeholder{
+width: 500px;
+	height:10%;
+	margin: auto;
+opacity:0;
+}
+.lv2title{
+margin-left: 9em;
+margin-bottom: 1em;
+
+}
+.equity{
+	/*background: white;*/
+	width: 100%;
+	height:800px;
+	margin: auto;
+	z-index: 1;
+}
+.dropDownMenu a {
+	color: #FFFFFF; /*#F8A248; orange font color no hover */
+}
+.dropDownMenu,
+.dropDownMenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+}
+.dropDownMenu li {
+	position: relative;
+}
+.dropDownMenu a {
+	padding: 10px 20px;
+	display: block;
+	text-decoration: none;
+}
+ .dropDownMenu > li:nth-child(3) > a:hover { background: #e4781e; } /* Darker than #F8A248 first menu   dark orange*/
+ .dropDownMenu > li:nth-child(4) > a:hover { background: #1a7874; } /* Darker than #20aea6 second menu  dark green*/
+ .dropDownMenu > li:nth-child(5) > a:hover { background: #e4781e; } /* Darker than #F8A248 Third menu   dark orange*/
+ .dropDownMenu > li:nth-child(6) > a:hover { background: #1a7874; } /* Darker than #20aea6 Fourth menu  dark green*/
+
+/* Level 1 Drop Down Menu */
+.dropDownMenu > li {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: -4px; /* solve the 4 pixels spacing between list-items */
+}
+.dropDownMenu > li:first-child {
+	margin-left: 0;
+}
+.dropDownMenu > li > a {}
+.dropDownMenu > li > a:hover {}
+
+/* Level 2 */
+.dropDownMenu > li > ul {
+	text-align: left;
+	width: auto; /* change auto value with 200px if you want a bigger menu */
+	display: none;
+	background: #20aea6;/* Blue*/
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 9999999; /* if you have YouTube iframes, is good to have a bigger z-index so the video can appear above the video */
+}
+   .dropDownMenu > li:nth-child(3)> ul { background: #F8A248; }
+   .dropDownMenu > li:nth-child(4)> ul { background: #20aea6; }
+   .dropDownMenu > li:nth-child(5)> ul { background: #F8A248; }
+   .dropDownMenu > li:nth-child(6)> ul { background: #20aea6; }
+
+.dropDownMenu > li:hover > ul {
+	display: block;
+	/* color:#F8A248; */ 
+}
+
+.dropDownMenu  li:nth-child(3) > ul  a:hover {
+  color: #e4781e;
+}
+.dropDownMenu li:nth-child(4) > ul a:hover {
+  color: #1a7874;
+}
+.dropDownMenu li:nth-child(5) > ul a:hover {
+  color: #e4781e;
+}
+.dropDownMenu li:nth-child(6) > ul a:hover {
+  color: #1a7874;
+}
+
+.dropDownMenu ul li a {}
+.dropDownMenu ul li a:hover {
+/*color:#2D716E; */
+}
+
+
+
+/* Level 3 */
+.dropDownMenu > li > ul > li > ul {
+	text-align: left;
+	display: none;
+	background: #e4781e; 
+	position: absolute;
+	left: 100%;
+	top: 0;
+	z-index: 9999999;
+}
+.dropDownMenu > li > ul > li:hover > ul {
+	display: block; 
+}
+}
+.dropDownMenu ul ul li {}
+.dropDownMenu ul ul li a {}
+.dropDownMenu ul ul li a:hover {}
+.dropDownMenu  li:nth-child(3) > ul >li >ul  a:hover {
+  color: #F8A248;
+}
+
+.regional{
+	margin-top: 0.3em;
+}
+.program{
+	margin-top: 0.3em;
+}
+.project{
+	margin-top: 0.3em;
+}
+.contact{
+	margin-top: 0.3em;
+}
