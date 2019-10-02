@@ -170,10 +170,13 @@ margin-bottom: 1em;
 .dropDownMenu ul ul li {}
 .dropDownMenu ul ul li a {}
 .dropDownMenu ul ul li a:hover {}
+/* hover color for level 3, column regional & project, color between white and orange */
 .dropDownMenu  li:nth-child(3) > ul >li >ul  a:hover {
   color: #F8A248;
 }
-
+.dropDownMenu  li:nth-child(3) > ul >li >ul  a:hover {
+  color: #F8A248;
+}
 .regional{
 	margin-top: 1.5em;
 	margin-bottom: 1.3em;
